@@ -1,0 +1,4 @@
+interface:
+  display_name: "Developer-Paced Implementation"
+  short_description: "Keep changes small, concise, and developer-paced"
+  default_prompt: "Use $developer-paced-implementation to work in concise, reviewable steps without getting ahead of me."
