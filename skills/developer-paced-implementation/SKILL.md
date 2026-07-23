@@ -79,7 +79,7 @@ After the approved batch, provide a concise checkpoint. Include only applicable 
 - **Decisions:** choices and assumptions encoded in the change.
 - **Evidence:** verification performed and its result.
 - **Risks:** anything unresolved, unverified, or newly discovered.
-- **Next batch:** when work remains, at most three one-line proposed steps, clearly marked as not started.
+- When work remains, introduce the proposal with `🔜 **There is a next batch:**`, then list at most three one-line proposed steps, clearly marked as not started. Keep only this continuation notice bold, not the proposed steps.
 
 Then end the turn. When work remains, propose the next batch but do not investigate or start it. When the task is complete, say so briefly and do not invent follow-up work. Do not call more tools, perform background work, or turn the checkpoint into a progress update followed by continued execution.
 
